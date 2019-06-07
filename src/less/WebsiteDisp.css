@@ -179,7 +179,7 @@ table {
   justify-content: center;
   text-decoration: none;
   color: white;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 .main_container .nav_logo_container .nav_container ul .nav-link:hover {
   border-top: 2px solid white;
@@ -202,5 +202,11 @@ table {
   }
   .main_container .middle_Content_Container .middle_info p {
     font-size: 2.3vh;
+  }
+  .header_container .info_box_container .header_box h2 {
+    padding: 10px;
+  }
+  .header_container .info_box_container .header_box .btn_header {
+    padding-bottom: 10px;
   }
 }
