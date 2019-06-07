@@ -21,7 +21,7 @@ function BottomImg() {
                         </Col>
                     </Row>
                     <div className="services_container">
-                        <Col xs="4">
+                        <Col>
                             <div className="services">
                                 <h2>Financial Services</h2>
                                 <p>We provide businesses with a large variety of loans, cash advances, lines of credit, collateral funding and more. Take a look here at what we offer.</p>
@@ -29,7 +29,7 @@ function BottomImg() {
                                 <button a href ="#">Learn More!</button>
                             </div>
                         </Col>
-                        <Col xs="4">
+                        <Col>
                             <div className="services">
                                 <h2>Business Consulting</h2>
                                 <p>Growing a business can be done in a variety of ways, get in touch with our in-house experts in business development & marketing to find out how!</p>
