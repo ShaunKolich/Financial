@@ -179,7 +179,7 @@ table {
   justify-content: center;
   text-decoration: none;
   color: white;
-  font-size: 12pt;
+  font-size: 2.5vh;
 }
 .main_container .nav_logo_container .nav_container ul .nav-link:hover {
   border-top: 2px solid white;
