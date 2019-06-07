@@ -1,0 +1,47 @@
+.bottom_Contact_cont {
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b4848;
+}
+.bottom_Contact_cont .bottom_contact_info {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom_Contact_cont .bottom_contact_info h2 {
+  text-align: center;
+  font-size: 7vh;
+  font-weight: 700;
+  color: #40c740;
+  width: 100%;
+  line-height: 1;
+}
+.bottom_Contact_cont .bottom_contact_info p {
+  font-size: 3.0vh;
+  line-height: 1.5;
+  width: 90%;
+  color: white;
+  text-align: center;
+}
+.bottom_Contact_cont .bottom_contact_info button {
+  margin-top: 2.0rem;
+  font-size: 3vh;
+  height: 55px;
+  border-radius: 25px;
+  box-shadow: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.bottom_Contact_cont .bottom_contact_info button:hover {
+  background-color: #00b300;
+}

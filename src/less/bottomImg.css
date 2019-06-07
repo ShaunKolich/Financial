@@ -1,0 +1,91 @@
+.bottomImg_container {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background: linear-gradient(#fcf9f9, rgba(241, 236, 236, 0.5)), url(../img/architectural-design-architecture-buildings-936722.jpg);
+  background-size: cover;
+}
+.bottomImg_container .bottom_img {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomImg_container .bottom_img img {
+  height: 75px;
+  width: 75px;
+}
+.bottomImg_container .services_info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomImg_container .services_info h2 {
+  font-size: 4vh;
+  font-weight: 700;
+  color: green;
+  width: 70%;
+  text-align: center;
+}
+.bottomImg_container .services_info p {
+  padding-top: 1.0rem;
+  font-size: 3vh;
+  line-height: 1.5;
+  width: 90%;
+  color: black;
+  text-align: center;
+}
+.bottomImg_container .services_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomImg_container .services_container .services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomImg_container .services_container .services h2 {
+  font-size: 4vh;
+  font-weight: 700;
+  color: green;
+  width: 70%;
+  text-align: center;
+}
+.bottomImg_container .services_container .services p {
+  padding-top: 1.0rem;
+  font-size: 3.0vh;
+  line-height: 1.5;
+  width: 90%;
+  color: black;
+  text-align: center;
+}
+.bottomImg_container .services_container .services i {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: 700;
+  color: green;
+}
+.bottomImg_container .services_container .services button {
+  margin-top: 2.0rem;
+  font-size: 3vh;
+  height: 55px;
+  border-radius: 25px;
+  box-shadow: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.bottomImg_container .services_container .services button:hover {
+  background-color: #00b300;
+}
