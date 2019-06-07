@@ -135,7 +135,6 @@ table {
 .main_container {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 }
 .main_container .nav_logo_container {
   width: 100%;

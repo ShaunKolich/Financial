@@ -6,6 +6,7 @@ import HeaderImg from '../headerImg';
 import MiddleContent from '../middleContent';
 import BottomImg from '../bottomImg';
 import BottomContact from "../bottomContact";
+import BottomTest from "../bottomTest";
 
 class Home extends Component {
     render() {
@@ -14,7 +15,8 @@ class Home extends Component {
                 <HeaderImg /> 
                 <MiddleContent />
                 <BottomImg />
-                <BottomContact/>
+                <BottomContact />
+                <BottomTest/>
             </div>
         )
     }
