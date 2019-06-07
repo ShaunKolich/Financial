@@ -10,7 +10,7 @@ function HeaderImg(){
         <Row>
         <Col>
             <div className='header_container'>
-                <Col xs="6">
+                <Col xs="8">
                     <section className="info_box_container">
                                 <div className="header_box">
                                     <h2>Need Money to Grow Your Business?</h2>
