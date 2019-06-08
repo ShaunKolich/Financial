@@ -14,6 +14,9 @@ function FundingMerchant() {
                     <div className="funding_info">
                         <Col>
                             <FundingType text="What is a Merchant Cash Advance?" />
+                            <div className="border_container">
+                                <div className="border"></div>
+                            </div>
                             <FundingInfo text="MCA or Merchant Cash Advances are not technically loans. With an MCA, a private company offers you cash in exchange for a percentage of your (future) daily credit card and debit card sales, plus a set fee. These cash advances can be an effective and quick ways to get your business fast cash with no need for collateral (regardless of credit score!)." />
                         </Col>
                     </div>

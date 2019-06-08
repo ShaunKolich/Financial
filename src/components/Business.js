@@ -14,6 +14,9 @@ function Business() {
                     <div className="funding_info">
                         <Col>
                             <FundingType text="What is a Business Line of Credit?" />
+                            <div className="border_container">
+                                <div className="border"></div>
+                            </div>
                             <FundingInfo text="A business line of credit offers you access to funds to draw from when you need capital. Unlike traditional business loans, you have the option to borrow up to a set amount (typically anywhere from $50k to $500k), repaying only the amount you withdraw, with interest. You can use your business line of credit to deal with cash flow gaps, get additional working capital, or handle emergencies or opportunities." />
                         </Col>
                     </div>

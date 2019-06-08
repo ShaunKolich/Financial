@@ -14,6 +14,9 @@ function FundingMiddle() {
                     <div className="funding_info">
                         <Col>
                             <FundingType text="What Are Factoring Loans?" />
+                            <div className="border_container">
+                                <div className="border"></div>
+                            </div>
                             <FundingInfo text="Factoring is a financial transaction where a “factoring company” buys your open invoices. These invoices are ones for which you usually receive payment for within 24 hours. You can choose yourself which invoices to sell to the factoring company and you will in exchange receive an advance on each of them. Some of these factoring companies can advance up to 97% of the total amount of the invoice. Keep in mind that since the factoring company will then own these invoices, they will be responsible for collecting the payment from the customer the invoice has veep made out to." />
                         </Col>
                     </div>
