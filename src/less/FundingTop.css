@@ -1,0 +1,31 @@
+.Funding_info-Container {
+  width: 100%;
+  height: 1000px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Funding_info-Container .funding_info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Funding_info-Container .funding_info h2 {
+  font-size: 6vh;
+  text-align: center;
+  color: green;
+}
+.Funding_info-Container .funding_info p {
+  margin-top: 20px;
+  width: 90%;
+  padding-left: 10%;
+  text-align: center;
+  font-size: 3vh;
+  line-height: 2;
+  color: black;
+}
