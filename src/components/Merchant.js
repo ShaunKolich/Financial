@@ -6,41 +6,41 @@ import FundingInfo from './FundingInfo';
 import LoanInfo from './LoanInfo';
 import LoanAmount from './LoanAmount';
 
-function FundingTop() {
+function FundingMerchant() {
     return (
         <div className="Funding_info-Container">
             <Row>
                 <Col>
                     <div className="funding_info">
                         <Col>
-                            <FundingType text="What Are Term Loans?" />
-                            <FundingInfo text="A traditional term loan is a set amount of capital that you pay back with scheduled repayments at a fixed interest rate. The word “term” stems from the agreed on set repayment term length, the length of a term loan is usually between 1 & 5 years. Generally speaking business owners will use the proceeds of these term loans to finance a certain, individual investment for their business." />
+                            <FundingType text="What is a Merchant Cash Advance?" />
+                            <FundingInfo text="MCA or Merchant Cash Advances are not technically loans. With an MCA, a private company offers you cash in exchange for a percentage of your (future) daily credit card and debit card sales, plus a set fee. These cash advances can be an effective and quick ways to get your business fast cash with no need for collateral (regardless of credit score!)." />
                         </Col>
                     </div>
 
                     <Row>
                         <Col>
                             <div className="terms">
-                                <h2><LoanInfo text="Maximum Loan Amount" /></h2>
-                                <p><LoanAmount text="$25K – $5M" /></p>
+                                <h2><LoanInfo text="Maximum Advance Amount" /></h2>
+                                <p><LoanAmount text="$2.5K – $250K" /></p>
                             </div>
                         </Col>
                         <Col>
                             <div className="terms">
-                                <h2><LoanInfo text="Loan Terms" /></h2>
-                                <p><LoanAmount text="1 to 5 years" /></p>
+                                <h2><LoanInfo text="Repayment" /></h2>
+                                <p><LoanAmount text="Paid daily" /></p>
                             </div>
                         </Col>
                         <Col>
                             <div className="terms">
-                                <h2><LoanInfo text="Interest Rates" /></h2>
-                                <p><LoanAmount text="starting below 10%" /></p>
+                                <h2><LoanInfo text="Factor Fee" /></h2>
+                                <p><LoanAmount text="1.10 – 1.45" /></p>
                             </div>
                         </Col>
                         <Col>
                             <div className="terms">
-                                <h2><LoanInfo text="Speed" /></h2>
-                                <p><LoanAmount text="As fast as 24 hours" /></p>
+                                <h2><LoanInfo text="Time To Fund" /></h2>
+                                <p><LoanAmount text="As fast as 2 days" /></p>
                             </div>
                         </Col>
                     </Row>
@@ -53,4 +53,4 @@ function FundingTop() {
     )
 }
 
-export default FundingTop;
+export default FundingMerchant;
