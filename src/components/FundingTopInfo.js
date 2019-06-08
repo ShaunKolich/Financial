@@ -12,12 +12,10 @@ function FundingTop() {
                     <div className="funding_info">
                         <Col>
                             <FundingType text="What Are Term Loans?" />
-                        </Col>
-                        <Col>
-                            <FundingInfo text ="A traditional term loan is a set amount of capital that you pay back with scheduled repayments at a fixed interest rate. The word “term” stems from the agreed on set repayment term length, the length of a term loan is usually between 1 & 5 years. Generally speaking business owners will use the proceeds of these term loans to finance a certain, individual investment for their business."/>
+                            <FundingInfo text="A traditional term loan is a set amount of capital that you pay back with scheduled repayments at a fixed interest rate. The word “term” stems from the agreed on set repayment term length, the length of a term loan is usually between 1 & 5 years. Generally speaking business owners will use the proceeds of these term loans to finance a certain, individual investment for their business." />
                         </Col>
                     </div>
-                    <Row>
+                  
                         <div className="Terms_container">
                             <Col>
                                 <div className="terms">
@@ -45,7 +43,7 @@ function FundingTop() {
                             </Col>
 
                         </div>
-                    </Row>
+                 
 
                 </Col>
             </Row>
