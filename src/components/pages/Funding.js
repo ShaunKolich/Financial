@@ -7,6 +7,10 @@ import FundingHeader from '../fundingheader';
 import FundingTop from '../FundingTopInfo';
 import FundingMiddle from '../FundingMiddle';
 import FundingMerchant from '../Merchant';
+import Business from "../Business";
+import Collateral from "../Collateral";
+import BottomContact from "../bottomContact";
+import Footer from "../footer";
 
 class Funding extends Component {
     render() {
@@ -15,7 +19,11 @@ class Funding extends Component {
                 <FundingHeader />
                 <FundingTop />
                 <FundingMiddle />
-                <FundingMerchant/>
+                <FundingMerchant />
+                <Business />
+                <Collateral />
+                <BottomContact />
+                <Footer />
             </div>
 
         )
