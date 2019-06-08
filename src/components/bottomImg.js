@@ -21,26 +21,26 @@ function BottomImg() {
                         </Col>
                     </Row>
                     <div className="services_container">
-                        <Col>
-                            <div className="services">
-                                <h2>Financial Services</h2>
-                                <p>We provide businesses with a large variety of loans, cash advances, lines of credit, collateral funding and more. Take a look here at what we offer.</p>
-                                <i class="fas fa-globe"></i>
-                                <button a href ="#">Learn More!</button>
-                            </div>
-                        </Col>
-                        <Col>
-                            <div className="services">
-                                <h2>Business Consulting</h2>
-                                <p>Growing a business can be done in a variety of ways, get in touch with our in-house experts in business development & marketing to find out how!</p>
-                                <i class="fas fa-chart-line"></i>
-                                <button a href ="#">Learn More!</button>
-                            </div>
-                        </Col>
                         <Row>
-
+                            <Col>
+                                <div className="services">
+                                    <h2>Financial Services</h2>
+                                    <p>We provide businesses with a large variety of loans, cash advances, lines of credit, collateral funding and more. Take a look here at what we offer.</p>
+                                    <i class="fas fa-globe"></i>
+                                    <button a href="#">Learn More!</button>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="services">
+                                    <h2>Business Consulting</h2>
+                                    <p>Growing a business can be done in a variety of ways, get in touch with our in-house experts in business development & marketing to find out how!</p>
+                                    <i class="fas fa-chart-line"></i>
+                                    <button a href="#">Learn More!</button>
+                                </div>
+                            </Col>
                         </Row>
-
+                        <Row>
+                        </Row>
                     </div>
                 </div>
             </Col>

@@ -1,0 +1,39 @@
+.Services_Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.Services_Container .border_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Services_Container .border_container .border {
+  border-bottom: 2px solid green;
+  text-align: center;
+  width: 15%;
+}
+.Services_Container .Services_info {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.Services_Container .Services_info h2 {
+  font-size: 6vh;
+  text-align: center;
+  color: green;
+  margin-top: 5%;
+  line-height: 2;
+}
+.Services_Container .Services_info p {
+  margin-top: 20px;
+  width: 90%;
+  padding-left: 10%;
+  font-size: 3vh;
+  line-height: 2;
+  color: black;
+  text-align: center;
+}

@@ -13,11 +13,21 @@
   justify-content: center;
   align-items: center;
 }
+.Funding_info-Container .funding_info .border_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Funding_info-Container .funding_info .border_container .border {
+  border-bottom: 2px solid green;
+  text-align: center;
+  width: 15%;
+}
 .Funding_info-Container .funding_info h2 {
   font-size: 6vh;
   text-align: center;
   color: green;
-  margin-top: 10%;
+  margin-top: 5%;
   line-height: 2;
 }
 .Funding_info-Container .funding_info p {

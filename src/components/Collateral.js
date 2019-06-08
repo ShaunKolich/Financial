@@ -14,6 +14,9 @@ function Collateral() {
                     <div className="funding_info">
                         <Col>
                             <FundingType text="What is Collateral Funding?" />
+                            <div className="border_container">
+                                <div className="border"></div>
+                            </div>
                             <FundingInfo text="Collateral financing helps you finance up to 100% of the new or used physical assets you need for your business. Applying for collateral funding is typically a fast and easy way to finance the purchase of most types of real estate or equipment—computers, machinery, vehicles, or whatever else you need." />
                         </Col>
                     </div>
