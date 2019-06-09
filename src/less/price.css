@@ -20,7 +20,7 @@ body {
 }
 
 .highlighted-border {
-    border: 1px solid #f44336;
+    border: 1px solid green;
 }
 
 /* Add shadows on hover */
@@ -63,7 +63,7 @@ body {
 
 /* The "Sign Up" button */
 .button-submit {
-    background-color: #f44336;
+    background-color: green;
     color: white;
     height: 35px;
     border: none;
