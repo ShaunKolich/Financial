@@ -7,16 +7,23 @@ import ConsultingImgWeb from '../consultingImgWeb';
 import Services from '../services';
 import ServicesWeb from '../servicesWeb';
 import PricingDisplay from '../PricingDisplay';
+import PricingLead from '../PricingLead';
+import BottomContact from "../bottomContact";
+import Footer from "../footer";
 
 class Consulting extends Component {
     render() {
         return (
-            <div className = "consulting_container">
+            <div className="consulting_container">
                 <ConsultingImg />
                 <Services />
                 <ConsultingImgWeb />
                 <ServicesWeb />
-                <PricingDisplay/>
+                <PricingDisplay />
+                <PricingLead />
+                <BottomContact />
+                <Footer />
+
 
             </div>
         )

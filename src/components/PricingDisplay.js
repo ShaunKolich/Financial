@@ -15,33 +15,39 @@ class PricingDisplay extends React.Component {
                         <div className="pricing_Container">
                             <PricingTable highlightColor='green' >
                                 <Col>
-                                    <PricingSlot onClick={this.submit} buttonText='TRY IT FREE' title='BASIC' priceText='$949'>
+                                    <PricingSlot onClick={this.submit} buttonText='CONTACT US' title='BASIC' priceText='$949'>
                                         <ul>
-                                            <PricingDetail> <b>Website Domain (included if under $49.00)</b> projects</PricingDetail>
+                                            <PricingDetail> <b>Website Domain (included if under $49.00)</b></PricingDetail>
                                             <PricingDetail> <b>Web Hosting</b> Storage</PricingDetail>
-                                            <PricingDetail> <b>Website Construction</b> users</PricingDetail>
-                                            <PricingDetail> <b>Branding Media tracking</b></PricingDetail>
-                                            <PricingDetail> <b>Written Conent</b></PricingDetail>
+                                            <PricingDetail> <b>Website Construction</b></PricingDetail>
+                                            <PricingDetail> <b>Branding & Media</b></PricingDetail>
+                                            <PricingDetail> <b>Written Content</b></PricingDetail>
                                         </ul>
                                     </PricingSlot>
                                 </Col>
-                                <PricingSlot highlighted onClick={this.submit} buttonText='SIGN UP' title='BASIC' priceText='$24/month'>
-                                    <PricingDetail> <b>35</b> projects</PricingDetail>
-                                    <PricingDetail> <b>15 GB</b> storage</PricingDetail>
-                                    <PricingDetail> <b>Unlimited</b> users</PricingDetail>
-                                    <PricingDetail> <b>Time tracking</b></PricingDetail>
+                                <PricingSlot highlighted onClick={this.submit} buttonText='CONTACT US' title='ADVANCED' priceText='$1999'>
+                                    <PricingDetail> <b>Website Domain (included if under $99.00)</b> </PricingDetail>
+                                    <PricingDetail> <b>Web Hosting</b> Storage</PricingDetail>
+                                    <PricingDetail> <b>Website Construction</b> </PricingDetail>
+                                    <PricingDetail> <b>Branding & Media </b></PricingDetail>
+                                    <PricingDetail> <b>Written Content</b></PricingDetail>
+                                    <PricingDetail> <b>Custom Coding</b></PricingDetail>
                                 </PricingSlot>
-                                <PricingSlot onClick={this.submit} buttonText='SIGN UP' title='PROFESSIONAL' priceText='$99/month'>
-                                    <PricingDetail> <b>100</b> projects</PricingDetail>
-                                    <PricingDetail> <b>30 GB</b> storage</PricingDetail>
-                                    <PricingDetail> <b>Unlimited</b> users</PricingDetail>
-                                    <PricingDetail> <b>Time tracking</b></PricingDetail>
+                                <PricingSlot onClick={this.submit} buttonText='CONTACT US' title='REACT SITE' priceText='$2499'>
+                                    <PricingDetail> <b>Website Domain (included if under $199.00)</b> </PricingDetail>
+                                    <PricingDetail> <b>Web Hosting</b> Storage</PricingDetail>
+                                    <PricingDetail> <b>Website Construction</b> </PricingDetail>
+                                    <PricingDetail> <b>Branding & Media </b></PricingDetail>
+                                    <PricingDetail> <b>Written Content</b></PricingDetail>
+                                    <PricingDetail> <b>Custom Coding</b></PricingDetail>
                                 </PricingSlot>
-                                <PricingSlot onClick={this.submit} buttonText='SIGN UP' title='ENTERPRISE' priceText='$200/month'>
-                                    <PricingDetail> <b>Unlimited</b> projects</PricingDetail>
-                                    <PricingDetail> <b>75 GB</b> storage</PricingDetail>
-                                    <PricingDetail> <b>Unlimited</b> users</PricingDetail>
-                                    <PricingDetail> <b>Time tracking</b></PricingDetail>
+                                <PricingSlot onClick={this.submit} buttonText='CONTACT US' title='ADVANCED REACT' priceText='CONTACT US FOR QUOTE'>
+                                    <PricingDetail> <b>Website Domain (included if under $199.00)</b> </PricingDetail>
+                                    <PricingDetail> <b>Web Hosting</b> Storage</PricingDetail>
+                                    <PricingDetail> <b>Website Construction</b> </PricingDetail>
+                                    <PricingDetail> <b>Branding & Media </b></PricingDetail>
+                                    <PricingDetail> <b>Written Content</b></PricingDetail>
+                                    <PricingDetail> <b>Custom Coding</b></PricingDetail>
                                 </PricingSlot>
                             </PricingTable >
                         </div>
