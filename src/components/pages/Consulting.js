@@ -23,8 +23,6 @@ class Consulting extends Component {
                 <PricingLead />
                 <BottomContact />
                 <Footer />
-
-
             </div>
         )
 
