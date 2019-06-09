@@ -4,6 +4,7 @@ import { Row, Col } from 'fluid-react';
 import '../less/PricingDisplaylead.css';
 import '../less/pricelead.css';
 
+
 class PricingLead extends React.Component {
 
     render() {
