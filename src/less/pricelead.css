@@ -17,11 +17,11 @@ body {
 }
 
 .basic-border {
-    border: 1px solid grey;
+    border: 1px solid black;
 }
 
 .highlighted-border {
-    border: 1px solid #f44336;
+    border: 1px solid green;
 }
 
 /* Add shadows on hover */
