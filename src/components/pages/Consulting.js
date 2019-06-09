@@ -5,7 +5,7 @@ import '../consultingImg';
 import ConsultingImg from '../consultingImg';
 import ConsultingImgWeb from '../consultingImgWeb';
 import Services from '../services';
-import ServicesWeb from '../services';
+import ServicesWeb from '../servicesWeb';
 import PricingDisplay from '../PricingDisplay';
 
 class Consulting extends Component {

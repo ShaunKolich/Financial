@@ -15,12 +15,13 @@ class PricingDisplay extends React.Component {
                         <div className="pricing_Container">
                             <PricingTable highlightColor='green' >
                                 <Col>
-                                    <PricingSlot onClick={this.submit} buttonText='TRY IT FREE' title='FREE' priceText='$0/month'>
+                                    <PricingSlot onClick={this.submit} buttonText='TRY IT FREE' title='BASIC' priceText='$949'>
                                         <ul>
-                                            <PricingDetail> <b>15</b> projects</PricingDetail>
-                                            <PricingDetail> <b>5 GB</b> storage</PricingDetail>
-                                            <PricingDetail> <b>5</b> users</PricingDetail>
-                                            <PricingDetail strikethrough> <b>Time tracking</b></PricingDetail>
+                                            <PricingDetail> <b>Website Domain (included if under $49.00)</b> projects</PricingDetail>
+                                            <PricingDetail> <b>Web Hosting</b> Storage</PricingDetail>
+                                            <PricingDetail> <b>Website Construction</b> users</PricingDetail>
+                                            <PricingDetail> <b>Branding Media tracking</b></PricingDetail>
+                                            <PricingDetail> <b>Written Conent</b></PricingDetail>
                                         </ul>
                                     </PricingSlot>
                                 </Col>
