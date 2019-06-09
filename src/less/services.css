@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin-bottom: 5%;
 }
 .Services_Container .border_container {
   width: 100%;
@@ -22,6 +23,7 @@
   text-align: center;
 }
 .Services_Container .Services_info h2 {
+  width: 100%;
   font-size: 6vh;
   text-align: center;
   color: green;
