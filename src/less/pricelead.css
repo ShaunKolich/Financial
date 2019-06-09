@@ -64,7 +64,7 @@ body {
 
 /* The "Sign Up" button */
 .button-submit {
-    background-color: #f44336;
+    background-color: green;
     color: white;
     height: 35px;
     border: none;
