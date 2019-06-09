@@ -15,7 +15,7 @@ class PricingDisplay extends React.Component {
                         <div className="pricing_Container">
                             <PricingTable highlightColor='green' >
                                 <Col>
-                                    <PricingSlot onClick={this.submit} buttonText='CONTACT US' title='BASIC' priceText='$949'>
+                                    <PricingSlot onClick={this.submit} buttonText='CONTACT US' title='BASIC' priceText='$949'style>
                                         <ul>
                                             <PricingDetail> <b>Website Domain (included if under $49.00)</b></PricingDetail>
                                             <PricingDetail> <b>Web Hosting</b> Storage</PricingDetail>
