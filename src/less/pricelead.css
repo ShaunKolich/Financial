@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color:white;
+    background-color: white;
 }
 
 /* Style the list */
@@ -17,11 +17,11 @@ body {
 }
 
 .basic-border {
-    border: 1px solid black;
+    border: 1px solid black !important;
 }
 
 .highlighted-border {
-    border: 1px solid green;
+    border: 1px solid green !important;
 }
 
 /* Add shadows on hover */
