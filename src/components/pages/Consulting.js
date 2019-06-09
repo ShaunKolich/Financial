@@ -6,6 +6,7 @@ import ConsultingImg from '../consultingImg';
 import ConsultingImgWeb from '../consultingImgWeb';
 import Services from '../services';
 import ServicesWeb from '../services';
+import PricingDisplay from '../PricingDisplay';
 
 class Consulting extends Component {
     render() {
@@ -14,7 +15,8 @@ class Consulting extends Component {
                 <ConsultingImg />
                 <Services />
                 <ConsultingImgWeb />
-                <ServicesWeb/>
+                <ServicesWeb />
+                <PricingDisplay/>
 
             </div>
         )
