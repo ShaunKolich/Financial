@@ -28,7 +28,7 @@ function WebSiteDisplay() {
                                     <li><Link to={'/'} className="nav-link">Home</Link></li>
                                     <li><Link to={'/funding'} className="nav-link">Funding</Link></li>
                                     <li><Link to={'/consulting'} className="nav-link">Consulting</Link></li>
-                                    <li><Link to={'/partner'} className="nav-link">Become A Partner</Link></li>
+                                    <li><Link to={'/partner'} className="nav-link">Contact Us</Link></li>
                                     <li><Link to={'/questions'} className="nav-link">F.A.Q</Link></li>
                                 </ul>
 

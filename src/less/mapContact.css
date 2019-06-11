@@ -1,0 +1,24 @@
+.mapsContent {
+  width: 100%;
+  height: 600px;
+}
+.mapsContent .maps_Container {
+  width: 100%;
+  height: 600px;
+}
+.mapsContent .mapouter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapsContent .mapouter .gmap_canvas {
+  width: 100%;
+  text-align: center;
+}
+.mapsContent .contact_Container {
+  width: 100%;
+  height: 600px;
+  border: 2px solid blue;
+}
