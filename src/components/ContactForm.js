@@ -18,6 +18,47 @@ class Contact extends Component {
         buttonText: 'Send'
     }
 
+    formSubmit = (e) => {
+        e.preventDefault()
+
+        this.setState({
+            buttonText: '...sending'
+        })
+
+        let data = {
+            name: this.state.name,
+            companyName: this.state.companyName,
+            companyAddress: this.state.companyAddress,
+            creditScore: this.state.creditScore,
+            desiredFunds: this.state.desiredFunds,
+            email: this.state.email,
+            phoneNumber: this.state.phoneNumber
+
+        }
+
+        axios.post('API_URI', data)
+            .then(res => {
+                this.setState({ sent: true }, this.resetForm())
+            })
+            .catch(() => {
+                console.log('Message not sent')
+            })
+    }
+
+    // resetForm = () => {
+    //     this.setState({
+    //         name: '',
+    //         companyName: '',
+    //         companyAddress: '',
+    //         creditScore: '',
+    //         desiredFunds: '',
+    //         email: '',
+    //         phoneNumber: '',
+    //         options: '',
+    //         buttonText: 'Send'
+    //     })
+    // }
+
     render() {
         return (
             <div className="contact-form-container">
@@ -27,7 +68,7 @@ class Contact extends Component {
                     <input onChange={e => this.setState({ name: e.target.value })} name="name" class="message-name" type="text" placeholder="Your Name" value={this.state.name} required />
 
                     <label class="message" htmlFor="message-input">Your Company Name</label>
-                    <textarea onChange={e => this.setState({ message: e.target.value })} name="companyName" class="message-input" type="text" placeholder="Enter Company Name" value={this.state.message} required />
+                    <textarea onChange={e => this.setState({ message: e.target.value })} name="companyName" class="message-input" type="text" placeholder="Enter Company Name" value={this.state.companyName} required />
 
                     <label class="message" htmlFor="message-input">Your Company Address</label>
                     <textarea onChange={e => this.setState({ message: e.target.value })} name="companyAddress" class="message-input" type="text" placeholder="Enter Company Address" value={this.state.message} required />
