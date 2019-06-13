@@ -9,6 +9,7 @@ class Partner extends Component {
         return (
 
             <div>
+                <ContactInfo/>
                 <MapsContent />
                 
             </div>
