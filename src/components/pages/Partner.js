@@ -3,13 +3,15 @@ import { Container, Row, Col } from 'fluid-react'
 import '../../less/partner.css';
 import MapsContent from '../mapContact';
 import ContactInfo from '../ContactInfo';
+import ContactForm from '../ContactForm';
 
 class Partner extends Component {
     render() {
         return (
 
             <div>
-                <ContactInfo/>
+                <ContactForm/>
+                <ContactInfo />
                 <MapsContent />
                 
             </div>
