@@ -20,6 +20,8 @@
   margin-top: 10px;
   color: green;
   font-size: 3vh;
+  width: 300px;
+  line-height: 1.2;
 }
 .contact-form-container .contact-form input {
   margin-top: 10px;
